@@ -118,7 +118,8 @@ this.setState({filteredItems: []});
     var originCity = this.state.originCity ? this.state.originCity : "";
     var destCity = this.state.destCity ? this.state.destCity : "";
     var headerElem = "";
-    var defaultOption = this.state.options[0];
+    // var defaultOption = this.state.options[0];
+    var defaultOption ='Select an option';
     var startDate = 
     this.state.startDate ? "Depart: "+this.state.startDate.toString().slice(4, 15) : "";
     if(!!originCity && !!destCity) {
@@ -144,8 +145,6 @@ this.setState({filteredItems: []});
                     value={defaultOption} 
                   placeholder="Select an option" />
 
-                        
-                        
                         <Dropdown options={this.state.options} onChange={this.handleChangeDestCity} 
                     value={defaultOption} 
                   placeholder="Select an option" />

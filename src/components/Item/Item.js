@@ -1,7 +1,6 @@
 
 import React from 'react';
 import './Item.css';
-import logo from './ItemLogo.svg';
 
 let Item = ({ item, children }) => (
   <div className="Item">
@@ -14,9 +13,7 @@ let Item = ({ item, children }) => (
     </div>
 
     <div className="Item-right">
-      <div className="Item-image" >
-        <img src={logo} className="Item-logo" alt="logo" />
-      </div>
+      
       <button className="Item-book" onClick={item.onClickHandler} type="submit">
         Book this flight
       </button>

@@ -5,11 +5,7 @@
   padding: 10px;
   margin: 10px;
 }
-.Item-image {
-  height: 128px;
-  border: 1px solid #ccc;
-  float: left;
-}
+
 
 .Item-price {
   text-align: left;
