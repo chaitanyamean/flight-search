@@ -13,8 +13,7 @@
     "react-autosuggest": "^10.0.2",
     "react-datepicker": "^0.44.0",
     "react-dom": "^15.5.4",
-    "react-dropdown": "^1.7.0",
-    "react-tabs": "^0.8.2"
+    "react-dropdown": "^1.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
